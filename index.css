@@ -1,0 +1,59 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkblue;
+    color:aliceblue;
+    display:flex;
+    flex-wrap: wrap;
+}
+h1{
+    text-align:center;
+    width: 100%;
+}
+.container{
+    background-color: rgb(129, 79, 79);
+    width: 300px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.buttons{
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+ul{
+    padding-left: 25px;
+    list-style-type: none;
+    width: 85%;
+    height: 10%;
+}
+li{
+    word-break: break-word;
+    width: 100%;
+}
+.task-inputter{
+    position: absolute;
+    top: 200px;
+    margin-left: 70vw;
+}
+
+.crossed{
+    text-decoration:line-through;
+    color: grey;
+}
+
+@media screen and (max-width: 744px) {
+    .task-inputter{
+        text-align: center;
+        width: 200px;
+        left: 0px;
+        right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

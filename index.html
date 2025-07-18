@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>To-do list</title>
+</head>
+<body>
+    <h1>To-do list.</h1>
+    <div class="container">
+        <div class="buttons">
+            <button onclick="All()">All</button>
+            <button onclick="completed()">Completed</button>
+            <button onclick="incomplete()">Incomplete</button></div>
+        <ul id="taskList">
+            <li><input type="checkbox">XeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeDdd</li> 
+            <li><input type="checkbox">ee</li>
+        </ul>
+    </div>
+    <div class="task-inputter">
+        <input maxlength="40" type="text" id="taskInput" placeholder="Enter task">
+        <button onclick="handleAdd()" id="addTask">Add</button>
+        <button onclick="remove()" id="removeTasks">Remove</button>
+        <button onclick="cross()" id="crossTasks">Cross</button>
+    </div>
+</body>
+</html>
+
+<script src="index.js"></script>
